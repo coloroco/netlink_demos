@@ -11,3 +11,11 @@ Other useful links:
 
 https://wiki.linuxfoundation.org/networking/generic_netlink_howto
 
+1. make
+1. insmod netlinkKernel.ko
+1. execute netlinkUser
+
+Currently testing under SLES15 with a 4.12 kernel (because that's what
+was handy).
+
+The goal is a Python3 program built around pyroute2 (package python3-pyroute2).
